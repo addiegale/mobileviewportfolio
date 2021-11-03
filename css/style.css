@@ -14,11 +14,17 @@ h1{
 
 h2{
 	font-weight: bold;
-	text-align: center;	
+	text-align: center;
+	text-decoration: underline;
+	line-height: 2.15;
 }
 
 nav{
 	background-color: white;
+}
+
+nav a{
+	color: black;
 }
 
 nav li{
@@ -47,7 +53,6 @@ p, h1, h2 {
   
   }
   
-  /* Requirement 3b code here*/
   .skip a:focus{
 	position: absolute;
 	top: 0px;
@@ -72,12 +77,6 @@ p, h1, h2 {
 	padding: 5px;
 }
 
-h3{
-	font-weight: bold;
-	text-decoration: underline;
-	line-height: 2.5;
-}
-
 a:visited{color: black}
 
 ul li{
@@ -85,18 +84,20 @@ ul li{
 	line-height: 1.5;
 }
 
-.hp p, .startup p, .photo p, .sally p, .salad p, .club p{
+.hp p, .startup p, .photo p, .sally p, .salad p{
 	font-style: italic;
+	text-align: center;
 }
 
-.hp h2, .startup h2, .photo h2, .sally h2, .salad h2{
-	text-align:left;
+.hp h3, .startup h3, .photo h3, .sally h3, .salad h3{
+	text-align:center;
 	font-weight: bold;
 }
 
 .hp img, .startup img, .photo img, .sally img, .salad img{
 	margin: auto;
 }
+
 
 .projects h2{
 	font-weight: bold;
