@@ -1,26 +1,122 @@
 body{
-    font-family: 'Inter', 'Times New Roman';
-    margin:1%;
-	padding:1%;
+	font-family: 'Inter', 'Times New Roman';
+	padding: 1.5%;
+	margin: 5.75%;
 	font-size:150%;
 }
 
 h1{
-	font-size: 2em; 
+	font-size: 1.75em; 
 	font-weight: bold;
 	text-align: center;
-	line-height: 1;
+	line-height: 1.75;
+}
+
+h2{
+	font-weight: bold;
+	text-align: center;	
+}
+
+nav{
+	background-color: white;
 }
 
 nav li{
-	display: inline;
+	display: block;
 }
 
+nav li .current{
+	color: red;
+	font-weight: bold;
+	font-size: larger;
+}
 
 p, h1, h2 {
-    padding: 10px;
+    padding: 5px;
 }
 
+.skip a{
+	background: white;
+	left: 0;
+	padding: 6px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+	position: absolute;
+	top: -40px;
+  
+  }
+  
+  /* Requirement 3b code here*/
+  .skip a:focus{
+	position: absolute;
+	top: 0px;
+  }
 
-a:visited{color:#0000FF}
+.gallery{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-row-gap: 12px;
+}
 
+.sports_photos{
+	grid-column: 1 / -1;
+	grid-row: 1 span 1;
+	padding: 5px;
+}
+
+.portrait_photos{
+	grid-column: 1 / -1;
+	grid-row: 3 span 1;
+	padding: 5px;
+}
+
+h3{
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 2.5;
+}
+
+a:visited{color: black}
+
+ul li{
+	list-style-type: disc;
+	line-height: 1.5;
+}
+
+.hp p, .startup p, .photo p, .sally p, .salad p, .club p{
+	font-style: italic;
+}
+
+.hp h2, .startup h2, .photo h2, .sally h2, .salad h2{
+	text-align:left;
+	font-weight: bold;
+}
+
+.hp img, .startup img, .photo img, .sally img, .salad img{
+	margin: auto;
+}
+
+.projects h2{
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 2;
+}
+
+.projects img{
+	padding: 6px;
+}
+
+body > footer{
+	width:100%;
+	background-color: rgb(255, 202, 248);
+	padding-top: 10px;
+	min-height: 75px;
+	text-align:center;
+	color: black;
+	position: fixed;
+	margin: 0;
+	left: 0;
+	bottom: 0;
+}
