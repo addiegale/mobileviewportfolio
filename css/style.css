@@ -94,8 +94,13 @@ ul li{
 	font-weight: bold;
 }
 
-.hp img, .startup img, .photo img, .sally img, .salad img{
+.hp img, .startup img, .sally img, .salad img{
 	margin: auto;
+}
+
+.photo img{
+	margin: auto;
+	padding: 10px;
 }
 
 
