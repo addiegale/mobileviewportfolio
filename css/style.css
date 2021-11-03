@@ -54,7 +54,7 @@ p, h1, h2 {
   
   }
   
-  .skip a:focus{
+.skip a:focus{
 	position: absolute;
 	top: 0px;
   }
@@ -118,6 +118,11 @@ main ul li{
 
 .projects img{
 	padding: 6px;
+}
+
+.professional p{
+	line-height: 1.5;
+	padding: 5px;
 }
 
 body > footer{
