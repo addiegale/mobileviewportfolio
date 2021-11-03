@@ -39,7 +39,11 @@ nav li .current{
 }
 
 p, h1, h2 {
-    padding: 5px;
+	padding: 5px;
+}
+
+.contact{
+	padding-bottom: 30px;
 }
 
 .skip a{
